@@ -110,7 +110,7 @@ z-index: 2;
     color: rgb(255, 255, 255);
 }
 .nav li a:hover{
-  color: rgba(255, 255, 255, 0.749)!important;
+  color: rgba(74, 74, 74, 0.749)!important;
 }
 
 .dropdown-menu li a{
@@ -324,4 +324,33 @@ z-index: 2;
 }
 .join-subscribe:hover{
     text-decoration: underline;
+}
+
+
+
+
+
+.navbar-background {
+    background-color: #31541c;
+    width: 1519px!important;
+    height: 80px!important; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.navbar-logo {
+    position: fixed;
+    left: 30px;
+    top: 10px;
+    z-index: 3;
+}
+
+.navbar-menu {
+    width: calc(100% - 60px); 
+    position: fixed;
+    top: 0;
+    left: 60px; 
+    z-index: 3;
 }
