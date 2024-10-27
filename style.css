@@ -29,7 +29,8 @@
     z-index: -3;
 }
 .subscribe-primary:hover{
-    text-decoration: underline;
+    background-color: rgb(62, 131, 40);
+
 }
 
 .subscribe-1{
